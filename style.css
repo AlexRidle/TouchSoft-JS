@@ -1,0 +1,43 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.default-square,
+.current-square {
+    display: inline-block;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.default-square {
+    border: 3px solid black;
+}
+
+.current-square {
+    border: 3px solid red;
+}
+
+.square-wrapper {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#dtn1,
+#dtn2 {
+    border: none;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.wrapper {
+    min-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
